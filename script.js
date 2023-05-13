@@ -30,7 +30,8 @@ function PrintStudentsbyForEach() {
 
 function addData() {
   //Write your code here, just console.log
-  let newObj = {id:4, name:"susan", age:"20", marks:45};
+  const num = stuArr[stuArr.length-1].id ;
+  let newObj = {id: num+1, name:"susan", age:"20", marks:45};
 
     stuArr.push(newObj);
     console.log(stuArr);
